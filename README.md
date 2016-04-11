@@ -1,6 +1,6 @@
 # Sprint-7
 
-A space to share Sprint 7 projects.
+###A space to share Sprint 7 projects.
 
 1. Udacity resume: 
 (insert screen shot....eventual create live page and link on blog site)
