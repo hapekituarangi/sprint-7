@@ -1,3 +1,3 @@
 # Sprint-7
 
-###A space to share sprint 7 material and projects
+###A space to share Sprint 7 projects
