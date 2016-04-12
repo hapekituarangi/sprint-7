@@ -1,4 +1,4 @@
-//Exercise 1 - Minimum
+//Exercise 1 Solution - Minimum
 
 var min = function(low, high) {
 if (low < high)
@@ -11,3 +11,23 @@ console.log(min(0, 10));
 // → 0
 console.log(min(0, -10));
 // → -10
+
+//Exercise 2 Solution - Recursion
+
+var isEven = function(num) {
+  if (num == 0)
+    return true;
+  else if (num == 1)
+    return false;
+  else if (num < 0)
+    return isEven(-num);
+  else
+    return isEven(num - 2);
+}
+
+console.log(isEven(50));
+// → true
+console.log(isEven(75));
+// → false
+console.log(isEven(-1));
+// → ??
